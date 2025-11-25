@@ -52,7 +52,6 @@ import { Actor } from './actor/actor.entity';
         entities: [ProfileUser, ProfileFeedItem, Homefeed, User, Follower, Following, Like, Repost, Save, Comment, Reply, UserInteraction, Message, Conversation, Notification, Activity, Actor],
         autoLoadEntities: false,
         synchronize: true,
-        ssl: true,
       }),
       inject: [ConfigService],
     }),
